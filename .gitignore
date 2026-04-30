@@ -1,0 +1,37 @@
+# Local environments
+.venv/
+venv/
+env/
+*.conda/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Streamlit and tool caches
+.streamlit/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated analysis outputs and user data
+runs/*
+!runs/.gitkeep
+analysis_inputs/*
+!analysis_inputs/.gitkeep
+
+# Large accidental training artifacts
+yolo_training/raw/
+yolo_training/datasets/
+yolo_training/models/pretrained/
+yolo_training/runs/segment/*/weights/last.pt
+
+# Archives generated locally
+*.zip
+
